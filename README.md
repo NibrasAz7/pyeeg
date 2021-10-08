@@ -28,6 +28,7 @@ To install under your home directory, try:
 $ python setup.py install --user
 ```
 
+
 ### Via pip
 
 pip supports installing from a GitHub repo. Follow the [instructions for cloning](https://pip.pypa.io/en/latest/reference/pip_install.html#git).
@@ -41,4 +42,7 @@ Run the test suite contained in `tests/`.
 $ python setup.py test
 ```
 
+### Another way:
 
+### via git and pip:
+pip install git+git://github.com/forrestbao/pyeeg.git
